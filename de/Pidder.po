@@ -1,22 +1,22 @@
-# PIDDER LANGUAGE RESOURCES.
+# PIDDER LANGUAGE RESOURCE.
 # Copyright (C) 2008 - 2012
-# This file is distributed under the same license as the pidder package.
+# This file is distributed under the same license as the PIDDER package.
 # Jonah <jonah@pidder.com> 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidder\n"
-"POT-Creation-Date: 2012-06-26 09:42+0200\n"
-"PO-Revision-Date: 2012-06-05 11:20+0100\n"
+"POT-Creation-Date: 2012-10-16 11:15+0200\n"
+"PO-Revision-Date: 2012-10-16 11:21+0100\n"
 "Last-Translator: Jonah <jonah@pidder.com>\n"
 "Language-Team: Entwicklung\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: German\n"
-"X-Poedit-Country: GERMANY\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"Language: de_DE\n"
+"X-Generator: Poedit 1.5.4\n"
 
 msgid "%s assigned successfully"
 msgstr "%s wurde erfolgreich verknüpft."
@@ -293,8 +293,29 @@ msgstr "%s wurde nicht fehlerfrei verschoben."
 msgid "%s was unassigned successfully."
 msgstr "%s wurde erfolgreich gelöst."
 
+msgid "%s could not be created."
+msgstr "%s konnte nicht erzeugt werden."
+
+msgid "Comment"
+msgstr "Kommentar"
+
+msgid "%s was removed successfully."
+msgstr "%s wurde erfolgreich entfernt."
+
+msgid "%s could not be removed."
+msgstr "%s konnte nicht gelöscht werden."
+
+msgid "%s could not be updated."
+msgstr "%s konnte nicht aktualisiert werden."
+
+msgid "Access denied"
+msgstr "Zugriff verweigert"
+
 msgid "Message has been withdrawn"
 msgstr "Nachricht wurde zurückgezogen."
+
+msgid "Tab"
+msgstr "Reiter"
 
 msgid "Dropbox"
 msgstr "Dropbox"
@@ -308,11 +329,17 @@ msgstr ""
 "Entschuldigung, es ist ein Fehler aufgetreten. Der Fehler wurde "
 "protokolliert und wird von uns untersucht."
 
+msgid "Event"
+msgstr "Event"
+
+msgid "New event"
+msgstr "Neuer Event"
+
+msgid "There is a new event for you."
+msgstr "Es gibt einen neuen Event für Sie."
+
 msgid "Forum"
 msgstr "Forum"
-
-msgid "%s could not be created."
-msgstr "%s konnte nicht erzeugt werden."
 
 msgid "At least one of your identities must be a forum member."
 msgstr ""
@@ -336,9 +363,6 @@ msgstr "Nicht alle Teilnehmer konnten entfernt werden."
 
 msgid "Maybe you tried to remove the last admin?"
 msgstr "Möglicherweise letzter Admin?"
-
-msgid "Access denied"
-msgstr "Zugriff verweigert"
 
 msgid "Group"
 msgstr "Gruppe"
@@ -454,15 +478,6 @@ msgstr "Die Persona hat keine Cipherbox-Brieftasche."
 
 msgid "Posting"
 msgstr "Beitrag"
-
-msgid "%s was removed successfully."
-msgstr "%s wurde erfolgreich entfernt."
-
-msgid "%s could not be removed."
-msgstr "%s konnte nicht gelöscht werden."
-
-msgid "%s could not be updated."
-msgstr "%s konnte nicht aktualisiert werden."
 
 msgid "Profile was created successfully."
 msgstr "Das Profil wurde erfolgreich angelegt."
@@ -1051,8 +1066,8 @@ msgid ""
 "This is the last association of <span data-crypt=true data-data=\"%s\">%s</"
 "span>."
 msgstr ""
-"Dies ist die letzte Assoziation von <span data-crypt=true data-data=\"%s\">%"
-"s</span>."
+"Dies ist die letzte Assoziation von <span data-crypt=true data-data=\"%s\">"
+"%s</span>."
 
 msgid "Please choose one of the following options:"
 msgstr "Bitte wählen Sie eine der folgenden Optionen:"
@@ -1154,6 +1169,9 @@ msgstr "Geben Sie die 2 Wörter ein"
 
 msgid "Please type what you hear"
 msgstr "Geben Sie die 8 Ziffern ein"
+
+msgid "Welcome back %s."
+msgstr "Willkommen zurück %s."
 
 msgid "yes"
 msgstr "Ja"
@@ -1295,9 +1313,6 @@ msgstr "Die Brieftasche muss aufgeschlossen sein."
 
 msgid "The identity needs a clearance name."
 msgstr "Die Identität muss einen Freigabenamen haben."
-
-msgid "Could not find widget content"
-msgstr "Konnte für dieses Widget keinen Inhalt finden."
 
 msgid "Registered name"
 msgstr "Registrierter Name"
@@ -2065,6 +2080,30 @@ msgstr "Erzeugt am"
 msgid "Clearance|Updated at"
 msgstr "Aktualisiert am"
 
+msgid "comment"
+msgstr "Kommentar"
+
+msgid "Comment|Text"
+msgstr "Text"
+
+msgid "Comment|Owner"
+msgstr "Eigentümer"
+
+msgid "Comment|Event id"
+msgstr "Event ID"
+
+msgid "Comment|Public key id"
+msgstr "Öffentlicher Schlüssel"
+
+msgid "Comment|Created at"
+msgstr "Erzeugt am"
+
+msgid "Comment|Updated at"
+msgstr "Aktualisiert am"
+
+msgid "Comment|Last edited by"
+msgstr "Zuletzt geändert von"
+
 msgid "communication"
 msgstr "Kommunikation"
 
@@ -2131,6 +2170,15 @@ msgstr "Erzeugt am"
 msgid "Dashboard|Updated at"
 msgstr "Aktualisiert am"
 
+msgid "Information tab was not created"
+msgstr "Reiter Informationen wurde nicht erzeugt."
+
+msgid "Communtiy tab was not created"
+msgstr "Reiter Community wurde nicht erzeugt."
+
+msgid "Dashboard was not created"
+msgstr "Dashboard wurde nicht erzeugt."
+
 msgid "dashboard entry"
 msgstr "Dashboardeintrag"
 
@@ -2151,6 +2199,102 @@ msgstr "Erzeugt am"
 
 msgid "DashboardEntry|Updated at"
 msgstr "Aktualisiert am"
+
+msgid "dashboard tab"
+msgstr "Dashboard-Tab"
+
+msgid "DashboardTab|Dashboard id"
+msgstr "Dashboard ID"
+
+msgid "DashboardTab|Sequence"
+msgstr "Reihenfolge"
+
+msgid "DashboardTab|Title"
+msgstr "Titel"
+
+msgid "DashboardTab|Owner"
+msgstr "DashboardTab|Owner"
+
+msgid "DashboardTab|Created at"
+msgstr "DashboardTab|Created at"
+
+msgid "DashboardTab|Updated at"
+msgstr "DashboardTab|Updated at"
+
+msgid "dashboard tab entry"
+msgstr "Dashboardtabeintrag"
+
+msgid "DashboardTabEntry|Dashboard tab id"
+msgstr "Dashboard-Tab"
+
+msgid "DashboardTabEntry|Widget id"
+msgstr "DashboardTabEntry|Widget id"
+
+msgid "DashboardTabEntry|Sequence"
+msgstr "DashboardTabEntry|Sequence"
+
+msgid "DashboardTabEntry|Created at"
+msgstr "DashboardTabEntry|Created at"
+
+msgid "DashboardTabEntry|Updated at"
+msgstr "DashboardTabEntry|Updated at"
+
+msgid "event"
+msgstr "Event"
+
+msgid "Event|Title"
+msgstr "Event|Title"
+
+msgid "Event|Encryption secret"
+msgstr "Event|Encryption secret"
+
+msgid "Event|Description"
+msgstr "Event|Description"
+
+msgid "Event|Owner"
+msgstr "Event|Owner"
+
+msgid "Event|Location"
+msgstr "Event|Ort"
+
+msgid "Event|Start"
+msgstr "Event|Start"
+
+msgid "Event|End"
+msgstr "Ende"
+
+msgid "Event|Avatar id"
+msgstr "Event|Avatar id"
+
+msgid "Event|Identity id"
+msgstr "Event|Identity id"
+
+msgid "Event|Rsvp"
+msgstr "RSVP"
+
+msgid "Event|Rsvp start"
+msgstr "RSVP Beginn"
+
+msgid "Event|Rsvp end"
+msgstr "RSVP Ende"
+
+msgid "Event|Rsvp maybe"
+msgstr "vielleicht"
+
+msgid "Event|Rsvp visible"
+msgstr "sichtbar"
+
+msgid "Event|Rsvp mail"
+msgstr "E-Mail"
+
+msgid "Event|Comment"
+msgstr "Kommentare"
+
+msgid "Event|Created at"
+msgstr "Event|Created at"
+
+msgid "Event|Updated at"
+msgstr "Event|Updated at"
 
 msgid "favorite"
 msgstr "Favorit"
@@ -2461,6 +2605,9 @@ msgstr "gesendet am"
 
 msgid "Message|Draft recipients"
 msgstr "Entwurfsempfänger"
+
+msgid "Message|Reference"
+msgstr "Message|Reference"
 
 msgid "System message could not be saved."
 msgstr "Systemnachricht konnte nicht gespeichert werden."
@@ -2899,6 +3046,12 @@ msgstr "Gruppen ID"
 msgid "Secret|Forum id"
 msgstr "Forum ID"
 
+msgid "Secret|Event id"
+msgstr "Event ID"
+
+msgid "Secret|Rsvp"
+msgstr "RSVP"
+
 msgid "shared information"
 msgstr "shared information"
 
@@ -3249,6 +3402,9 @@ msgstr "UserDefault|Wizard"
 msgid "UserDefault|Level label p"
 msgstr "Beschriftung P"
 
+msgid "UserDefault|Show past events"
+msgstr "Vergangene Events anzeigen"
+
 msgid "wallet"
 msgstr "Brieftasche"
 
@@ -3451,6 +3607,15 @@ msgid ""
 msgstr ""
 "Ausweiskarte einbinden | Soll eine neue Brieftasche automatisch die "
 "Ausweiskarte der Persona beinhalten?"
+
+msgid "Show past events"
+msgstr "Vergangene Events anzeigen"
+
+msgid ""
+"Determines whether events in the past will be displayed in events listing."
+msgstr ""
+"Bestimmt ob Events, die in der Vergangenheit liegen, in der Eventliste "
+"angezeigt werden."
 
 msgid "Startpage"
 msgstr "Startseite"
@@ -3771,8 +3936,8 @@ msgid ""
 "its hash is\n"
 "    added to the passphrase hash. | |\n"
 "    On the other hand - due to limitations of JavaScript file\n"
-"    access - the keyfile cannot be sent to the server encrypted or hashed. "
-"| |\n"
+"    access - the keyfile cannot be sent to the server encrypted or hashed. |"
+" |\n"
 "    Once you have set a keyfile, you will need both your passphrase and your "
 "keyfile\n"
 "    to log on to pidder until you remove the keyfile."
@@ -4371,8 +4536,8 @@ msgid ""
 "They will work only if your secret is not set to &quot;%s&quot;. Otherwise "
 "your data can not be decrypted."
 msgstr ""
-"Das funktioniert nur, wenn Sie als Verschlüsselungsgeheimnis nicht &quot;%"
-"s&quot; verwenden. Sonst können Ihre Daten nicht entschlüsselt werden."
+"Das funktioniert nur, wenn Sie als Verschlüsselungsgeheimnis nicht &quot;"
+"%s&quot; verwenden. Sonst können Ihre Daten nicht entschlüsselt werden."
 
 msgid ""
 "There will be no access to the account settings when you authenticate using "
@@ -4458,7 +4623,9 @@ msgstr ""
 "Bestätigungsfeld."
 
 msgid "Confirmation"
-msgstr "Bestätigung"
+msgid_plural "Confirmations"
+msgstr[0] "Bestätigung"
+msgstr[1] "Bestätigungen"
 
 msgid "This will delete your account and all its data from pidder."
 msgstr "Dies führt zum endgültigen Löschen Ihres Kontos mit sämtlichen Daten."
@@ -4843,9 +5010,6 @@ msgstr "Erster"
 msgid "Second"
 msgstr "Zweiter"
 
-msgid "Introduction text"
-msgstr "Vorstellungstext"
-
 msgid "Send"
 msgstr "Senden"
 
@@ -5095,8 +5259,8 @@ msgstr "Diesen Kontakt haben Sie mit Ihrer Identität %{name} eingeladen."
 msgid ""
 "This contact was introduced to your identity %{introducee} by %{introducer}."
 msgstr ""
-"Dieser Kontakt wurde Ihrer Identität %{introducee} vorgestellt von %"
-"{introducer}."
+"Dieser Kontakt wurde Ihrer Identität %{introducee} vorgestellt von "
+"%{introducer}."
 
 msgid "Manage trust levels of this contact"
 msgstr "Vertrauenslevel des Kontakts setzen"
@@ -5592,6 +5756,39 @@ msgstr "vCard Daten"
 msgid "Create segments"
 msgstr "Segmente anlegen"
 
+msgid "Update comment"
+msgstr "Kommentar aktualisieren"
+
+msgid "No subject"
+msgstr "Kein Betreff"
+
+msgid "No text"
+msgstr "Kein Text"
+
+msgid "Please enter the text of your comment..."
+msgstr "Bitte geben Sie den Text Ihres Kommentares ein."
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "No comments yet."
+msgstr "Bisher keine Kommentare."
+
+msgid "Unknown"
+msgstr "Unbekannt"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Last edited by %{editor} at %{updated_at}"
+msgstr "Zuletzt bearbeitet von %{editor} am %{updated_at}"
+
+msgid "Add comment"
+msgstr "Kommentar hinzufügen"
+
+msgid "Comment preview"
+msgstr "Kommentarvorschau"
+
 msgid "No valid message box."
 msgstr "Kein gültiges Postfach."
 
@@ -5656,7 +5853,7 @@ msgstr ""
 
 msgid ""
 "To learn more about an individual widget just move your mouse over the "
-"respecive option below."
+"respective option below."
 msgstr ""
 "Um mehr über ein bestimmtes Widget zu erfahren, fahren Sie einfach unten mit "
 "der Maus über den Widgetnamen."
@@ -5750,35 +5947,59 @@ msgstr ""
 "Bleiben Sie über neue Forenbeiträge auch in Ihrem Dashboard auf dem "
 "Laufenden."
 
+msgid "Events"
+msgstr "Events"
+
+msgid "A list of the pidder events you manage or have been invited to."
+msgstr "Eine Liste der pidder Events, an denen Sie teilnehmen."
+
 msgid "Add widgets"
 msgstr "Widget hinzufügen"
 
-msgid "You can add more widgets to your dashboard."
-msgstr "Sie können weitere Widgets zu Ihrem Dashboard hinzufügen."
+msgid "Rename tab"
+msgstr "Reiter umbenennen"
 
-msgid "Click here for a selection of available widgets."
-msgstr "Klicken Sie hier für eine Auswahl an verfügbaren Widgets."
+msgid "Delete tab"
+msgstr "Reiter löschen"
 
-msgid "This will remove the widget from your dashboard."
-msgstr "Hiermit wird das Widget aus Ihrem Dashboard entfernt."
+msgid "This will delete the tab and all the widget it contains."
+msgstr "Dadurch wird der Reiter und alle darin enthaltenen Widgets gelöscht."
 
-msgid "Removing widget %s"
-msgstr "Widget %s entfernen"
+msgid "Please enter a title"
+msgstr "Bitte geben Sie einen Titel ein"
 
-msgid "Remove this widget"
-msgstr "Dieses Widget entfernen"
+msgid "Create tab..."
+msgstr "Reiter anlegen..."
 
-msgid "Edit widget"
-msgstr "Widget bearbeiten"
+msgid "Currently there are no tabs in this dashboard."
+msgstr "Derzeit gibt es keine Reiter in diesem Dashboard."
 
-msgid "Refresh widget"
-msgstr "Widget aktualisieren"
+msgid ""
+"You may want to add a new tab by clicking on the %{add_icon} icon above."
+msgstr ""
+"Fügen Sie einen neuen Reiter durch Klick auf das obige %{add_icon} hinzu."
 
-msgid "Add note"
-msgstr "Notiz hinzufügen"
+msgid "Currently there are no widgets in this tab."
+msgstr "Derzeit gibt es keine Widgets in diesem Reiter."
 
-msgid "Float widget"
-msgstr "Widget im eigenen Fenster öffnen"
+msgid ""
+"You may want to add new widgets from the drop down menu next to the tab's "
+"title"
+msgstr ""
+"Sie können neue Widgets über die Dropdownliste neben dem Titel des Reiters "
+"hinzufügen"
+
+msgid "or by clicking on this %{add_icon} icon."
+msgstr "oder indem Sie auf dieses %{add_icon} Hinzufügen-Icon klicken."
+
+msgid "Loading %s"
+msgstr "Lade %s"
+
+msgid "Edit tab..."
+msgstr "Reiter bearbeiten..."
+
+msgid "Add a new dashboard tab..."
+msgstr "Neuen Dashboardreiter hinzufügen..."
 
 msgid "Contact info"
 msgstr "Kontaktinformationen"
@@ -5874,6 +6095,291 @@ msgstr ""
 "Sie haben möglicherweise versucht, etwas zu ändern wozu Sie keine "
 "Berechtigungen haben."
 
+msgid "Field %{fieldname} must not be empty."
+msgstr "Das Eingabefeld %{fieldname} darf nicht leer sein."
+
+msgid "Wrong input data: %s!"
+msgstr "Falsche Eingabe: %s!"
+
+msgid "date values"
+msgstr "Datum"
+
+msgid "Back to event"
+msgstr "Zurück zum Event"
+
+msgid "Delete event"
+msgstr "Event löschen"
+
+msgid "This will delete the event."
+msgstr "Dadurch wird der Event gelöscht."
+
+msgid "Update event"
+msgstr "Event aktualisieren"
+
+msgid "No picture"
+msgstr "Kein Bild"
+
+msgid "Start date"
+msgstr "Startdatum"
+
+msgid ""
+"That way there can be reminders, transformation to your local time, etc."
+msgstr "So können Erinnerungen, lokales Zeitformat, etc. angeboten werden."
+
+msgid "End date"
+msgstr "Enddatum"
+
+msgid "Enter event data"
+msgstr "Termindaten eingeben"
+
+msgid "Please enter the data for your new event."
+msgstr "Bitte befüllen Sie die Felder für Ihren neuen Event."
+
+msgid ""
+"None of the input fields %{except} are mandatory so you may choose to leave "
+"fields blank."
+msgstr ""
+"Es gibt %{except} keine Pflichtfelder und Sie können jedes einzelne Feld "
+"auch leer lassen."
+
+msgid "except the %{title} field"
+msgstr "- mit Ausnahme des Feldes %{title} - "
+
+msgid "Please enter the event title."
+msgstr "Bitte geben Sie einen Titel ein."
+
+msgid "Please enter a description for the event."
+msgstr "Bitte Beschreibung eingeben."
+
+msgid "Location"
+msgstr "Ort"
+
+msgid "Please enter an event location."
+msgstr "Bitte Ort des Events eingeben."
+
+msgid "Start"
+msgstr "Beginn"
+
+msgid "End"
+msgstr "Ende"
+
+msgid "Select picture..."
+msgstr "Bild auswählen..."
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "Send as mail"
+msgstr "Als E-Mail senden"
+
+msgid "Save as file"
+msgstr "Als Datei speichern"
+
+msgid "Event manager"
+msgstr "Eventadministrator"
+
+msgid "Select one of your identities to be the manager of this event."
+msgstr "Bitte wählen Sie eine Ihrer Identitäten als Eventadministrator aus."
+
+msgid "Set participants"
+msgstr "Teilnehmer festlegen"
+
+msgid "Available contacts and groups"
+msgstr "Verfügbare Kontakte und Gruppen"
+
+msgid "No more contacts available for assignment."
+msgstr "Keine weiteren Kontakte verfügbar."
+
+msgid ""
+"Please select participants that you want to add to this event from the list "
+"on the left."
+msgstr ""
+"Wählen Sie Teilnehmer, die Sie dem Event zuweisen möchten aus der Liste "
+"links aus."
+
+msgid ""
+"In case of groups, move your mouse pointer over a group icon to see a list "
+"of that group's members."
+msgstr ""
+"Im Falle von Gruppen, können Sie mit dem Mauszeiger über das jeweilige "
+"Gruppen-Icon fahren, um eine Liste der Gruppenmitglieder angezeigt zu "
+"bekommen."
+
+msgid "Participants of event"
+msgstr "Teilnehmer des Events"
+
+msgid ""
+"To remove participants from the event please select them from the list on "
+"the right."
+msgstr ""
+"Teilnehmer, die Sie vom Event entfernen möchten wählen Sie aus der Liste "
+"rechts aus."
+
+msgid "RSVP active"
+msgstr "RSVP aktiv"
+
+msgid ""
+"If checked participants will be asked to reply to the event's invitation."
+msgstr ""
+"Wenn ausgewählt, werden die Teilnehmer aufgefordert auf die Einladung zu "
+"antworten."
+
+msgid "Allow comments"
+msgstr "Kommentare erlauben"
+
+msgid "If checked participants can post comments to the event."
+msgstr "Wenn ausgewählt, können Teilnehmer Kommentare zum Event abgeben."
+
+msgid "RSVP per email"
+msgstr "RSVP per E-Mail"
+
+msgid "If checked participants can send their reply per email."
+msgstr "Wenn ausgewählt, können Teilnehmer ihre Antwort per E-Mail senden."
+
+msgid "Allow maybe"
+msgstr "'Vielleicht' erlauben"
+
+msgid "If checked participants can answer with maybe."
+msgstr "Wenn ausgewählt, können Teilnehmer mit 'vielleicht' antworten."
+
+msgid "RSVP visible"
+msgstr "RSVP sichtbar"
+
+msgid ""
+"If checked participants will be able to see the response status of other "
+"participants."
+msgstr ""
+"Wenn ausgewählt, können die Teilnehmer den Antwortstatus der anderen "
+"Teilnehmer einsehen."
+
+msgid "RSVP start"
+msgstr "RSVP startet"
+
+msgid ""
+"If you enter a start date, responses will not be accepted before that date."
+msgstr ""
+"Wenn Sie ein Anfangsdatum eingeben, werden Antworten vor diesem Datum nicht "
+"entgegen genommen."
+
+msgid ""
+"If you enter an end date, responses will not be accepted after that date."
+msgstr ""
+"Wenn Sie ein Enddatum angeben, werden Antworten nach diesem Datum nicht mehr "
+"entgegen genommen."
+
+msgid "Configure RSVP"
+msgstr "RSVP festlegen"
+
+msgid "RSVP (Réspondez s'il vous plaît) means 'please reply'."
+msgstr "RSVP (Réspondez s'il vous plaît) bedeutet 'um Antwort wird gebeten'."
+
+msgid ""
+"This will give you an overview which participants confirmed and which "
+"canceled."
+msgstr ""
+"Dies gibt Ihnen eine Übersicht, welche Teilnehmer zu- bzw. abgesagt haben."
+
+msgid "RSVP starts"
+msgstr "RSVP startet"
+
+msgid "RSVP ends"
+msgstr "RSVP endet"
+
+msgid "RSVP visible to participants"
+msgstr "RSVP für Teilnehmer sichtbar"
+
+msgid "Allow RSVP 'Maybe'"
+msgstr "RSVP 'Vielleicht' erlauben"
+
+msgid "Select your response"
+msgstr "Antwort wählen"
+
+msgid "YES - I will participate"
+msgstr "JA - ich nehme teil"
+
+msgid "NO - I will not participate"
+msgstr "NEIN - Ich nehme nicht teil"
+
+msgid "MAYBE - I may participate"
+msgstr "VIELLEICHT - Ich nehme vielleicht teil"
+
+msgid "Your response"
+msgstr "Ihre Antwort"
+
+msgid "RSVP period has not started yet."
+msgstr "RSVP hat noch nicht begonnen."
+
+msgid "It will begin on %{start_date}."
+msgstr "Start ist am %{start_date}."
+
+msgid "RSVP period has ended on %{end_date}."
+msgstr "RSVP ist am %{end_date} abgelaufen."
+
+msgid "No response"
+msgstr "Keine Antwort"
+
+msgid "from"
+msgstr "von"
+
+msgid "to_time"
+msgstr "bis"
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "Export to calendar"
+msgstr "Kalender-Export"
+
+msgid "Outlook"
+msgstr "Outlook"
+
+msgid "Google Calendar"
+msgstr "Google Calendar"
+
+msgid "Yahoo! Calendar"
+msgstr "Yahoo! Calendar"
+
+msgid "iCal"
+msgstr "iCal"
+
+msgid "None"
+msgstr "Niemand"
+
+msgid "Show participants"
+msgstr "Teilnehmer anzeigen"
+
+msgid "Maybe"
+msgstr "Vielleicht"
+
+msgid "Cancellation"
+msgid_plural "Cancellations"
+msgstr[0] "Absage"
+msgstr[1] "Absagen"
+
+msgid "Show event data"
+msgstr "Termindaten anzeigen"
+
+msgid "Participants"
+msgstr "Teilnehmer"
+
+msgid "RSVP"
+msgstr "RSVP"
+
+msgid "Show comments"
+msgstr "Kommentare anzeigen"
+
+msgid "Responses"
+msgstr "Rückmeldungen"
+
+msgid "Comments"
+msgstr "Kommentare"
+
+msgid "Event data"
+msgstr "Termindaten"
+
+msgid "Create event"
+msgstr "Event anlegen"
+
 msgid "Type"
 msgstr "Typ"
 
@@ -5913,9 +6419,6 @@ msgstr "Themen"
 
 msgid "Set topcis..."
 msgstr "Themen bearbeiten..."
-
-msgid "Select picture..."
-msgstr "Bild auswählen..."
 
 msgid "Show %s"
 msgstr "%s anzeigen"
@@ -5963,9 +6466,6 @@ msgstr "Bitte Name eingeben..."
 msgid "Please enter a description..."
 msgstr "Bitte Beschreibung eingeben..."
 
-msgid "No picture"
-msgstr "Kein Bild"
-
 msgid "Select avatar..."
 msgstr "Avatar auswählen..."
 
@@ -5974,9 +6474,6 @@ msgstr "Moderiert"
 
 msgid "is_public"
 msgstr "Öffentlich"
-
-msgid "Participants"
-msgstr "Teilnehmer"
 
 msgid "Apply changes"
 msgstr "Änderungen anwenden"
@@ -6017,12 +6514,6 @@ msgstr "Bild auswählen..."
 msgid "Create Forum"
 msgstr "Forum anlegen"
 
-msgid "Available contacts and groups"
-msgstr "Verfügbare Kontakte und Gruppen"
-
-msgid "No more contacts available for assignment."
-msgstr "Keine weiteren Kontakte verfügbar."
-
 msgid ""
 "Please select participants that you want to add to this forum from the list "
 "on the left."
@@ -6034,14 +6525,6 @@ msgid "Make sure that at least one of your own identities is selected."
 msgstr ""
 "Stellen Sie sicher, dass Sie mindestens eine Ihrer eigenen Identitäten "
 "ausgewählt haben."
-
-msgid ""
-"In case of groups, move your mouse pointer over a group icon to see a list "
-"of that group's members."
-msgstr ""
-"Im Falle von Gruppen, können Sie mit dem Mauszeiger über das jeweilige "
-"Gruppen-Icon fahren, um eine Liste der Gruppenmitglieder angezeigt zu "
-"bekommen."
 
 msgid "Participants of forum"
 msgstr "Teilnehmer des Forums"
@@ -6218,9 +6701,6 @@ msgstr "Persona zu dieser Identität zuordnen"
 
 msgid "Assign Persona"
 msgstr "Verknüpfe Persona"
-
-msgid "Loading %s"
-msgstr "Lade %s"
 
 msgid ""
 "The identity contains personas that are not assigned to any other identity."
@@ -6598,9 +7078,6 @@ msgstr ""
 "beschreiben, wie andere Leute, denen Sie sie freigegeben haben, sie sehen "
 "sollen."
 
-msgid "Field %{fieldname} must not be empty."
-msgstr "Das Eingabefeld %{fieldname} darf nicht leer sein."
-
 msgid "Last name"
 msgstr "Nachname"
 
@@ -6623,13 +7100,6 @@ msgid "Please enter the data for your new identity."
 msgstr ""
 "Bitte befüllen Sie die Felder für Ihre neue pidder Identität gemäß Ihrer "
 "Wünsche."
-
-msgid ""
-"None of the input fields %{except} are mandatory so you may choose to leave "
-"fields blank."
-msgstr ""
-"Es gibt %{except} keine Pflichtfelder und Sie können jedes einzelne Feld "
-"auch leer lassen."
 
 msgid "except the %{last_name} field"
 msgstr "- mit Ausnahme des Feldes %{last_name} - "
@@ -7025,9 +7495,6 @@ msgstr ""
 "Personas dieser Identität, die auch noch anderen Identitäten zugeordnet "
 "sind, sind davon nicht betroffen."
 
-msgid "Edit"
-msgstr "Bearbeiten"
-
 msgid "Edit %s..."
 msgstr "%s bearbeiten..."
 
@@ -7095,9 +7562,6 @@ msgstr "Kontakt-Profilsicht"
 
 msgid "Create your first Identity"
 msgstr "Legen Sie Ihre erste Identität an"
-
-msgid "Close"
-msgstr "Schließen"
 
 msgid "%s the clipboard element here."
 msgstr "%s das Clipboardelement hierher."
@@ -7404,12 +7868,6 @@ msgstr "Geben Sie den Namen eines Empfängers ein."
 msgid "Use '.' to get a list of all available recipients."
 msgstr "Mit '.' sehen Sie eine Liste aller möglichen Empfänger."
 
-msgid "No subject"
-msgstr "Kein Betreff"
-
-msgid "No text"
-msgstr "Kein Text"
-
 msgid "Save draft"
 msgstr "Entwurf speichern"
 
@@ -7430,6 +7888,12 @@ msgstr "Von"
 
 msgid "Date"
 msgstr "Datum"
+
+msgid "This event has been deleted."
+msgstr "Dieser Event wurde gelöscht."
+
+msgid "Show event..."
+msgstr "Event anzeigen..."
 
 msgid "Recipients"
 msgstr "Empfänger"
@@ -7586,8 +8050,8 @@ msgid ""
 "If you want to learn more about the Cipherbox Add-on please visit the %s of "
 "the project."
 msgstr ""
-"Wenn Sie mehr über das Cipherbox Add-on erfahren möchten, besuchen Sie die %"
-"s des Projekts."
+"Wenn Sie mehr über das Cipherbox Add-on erfahren möchten, besuchen Sie die "
+"%s des Projekts."
 
 msgid "homepage"
 msgstr "Homepage"
@@ -7825,15 +8289,6 @@ msgstr "Neue Antwort"
 
 msgid "Create reply"
 msgstr "Antworten"
-
-msgid "Author"
-msgstr "Autor"
-
-msgid "Unknown"
-msgstr "Unbekannt"
-
-msgid "Last edited by %{editor} at %{updated_at}"
-msgstr "Zuletzt bearbeitet von %{editor} am %{updated_at}"
 
 msgid "Thread_genitiv"
 msgstr "Strangs"
@@ -8075,9 +8530,6 @@ msgstr ""
 msgid "Session keys"
 msgstr "Sitzungsschlüssel"
 
-msgid "from"
-msgstr "von"
-
 msgid "Decrypting text. Please wait ..."
 msgstr "Entschlüssele Text. Bitte einen Moment Geduld..."
 
@@ -8134,6 +8586,24 @@ msgid "Are you sure you want to remove private keys for this session?"
 msgstr ""
 "Sind Sie sicher, dass Sie die privaten Schlüssel dieser Sitzung entfernen "
 "wollen?"
+
+msgid "Applying changes ..."
+msgstr "Wende Änderungen an ..."
+
+msgid "Community"
+msgstr "Community"
+
+msgid "Create new event..."
+msgstr "Neuen Event erzeugen..."
+
+msgid "Add event"
+msgstr "Event hinzufügen"
+
+msgid "Vote"
+msgstr "Abstimmung"
+
+msgid "Create new vote..."
+msgstr "Neue Abstimmung anlegen..."
 
 msgid "Set keys"
 msgstr "Schlüssel setzen"
@@ -8480,11 +8950,11 @@ msgid "Close view"
 msgstr "Ansicht schließen"
 
 msgid ""
-"%{sharer} (a contact of <acronym data-crypt=true data-data=\"%{data}\">%"
-"{crypted}</acronym>) is sharing this data with you."
+"%{sharer} (a contact of <acronym data-crypt=true data-data=\"%{data}\">"
+"%{crypted}</acronym>) is sharing this data with you."
 msgstr ""
-"%{sharer} (ein Kontakt von <acronym data-crypt=true data-data=\"%{data}\">%"
-"{crypted}</acronym>) hat Ihnen diese Daten freigegen."
+"%{sharer} (ein Kontakt von <acronym data-crypt=true data-data=\"%{data}\">"
+"%{crypted}</acronym>) hat Ihnen diese Daten freigegen."
 
 msgid ""
 "Please treat this data confidentially and do not share it with third parties."
@@ -8501,9 +8971,6 @@ msgstr "%{close_preview}"
 
 msgid "Welcome"
 msgstr "Willkommen"
-
-msgid "Welcome back %s."
-msgstr "Willkommen zurück %s."
 
 msgid ""
 "Passphrase | It is highly recommended that you use a strong passphrases. | "
@@ -8795,8 +9262,8 @@ msgid ""
 "You can change the order of the entries by dragging each entry to the "
 "desired position using the %{quicklogin_icon} quicklogin icon as a handle."
 msgstr ""
-"Sie können die Reihenfolge der Einträge ändern, indem Sie sie an den %"
-"{quicklogin_icon} Quicklogin-Icons in die gewünschte Position ziehen."
+"Sie können die Reihenfolge der Einträge ändern, indem Sie sie an den "
+"%{quicklogin_icon} Quicklogin-Icons in die gewünschte Position ziehen."
 
 msgid ""
 "The %{card_icon} card icon in front of each entry will take you to the card "
@@ -9131,6 +9598,12 @@ msgstr "Sie verwenden aktuell die pidder Premium Edition."
 msgid "Your Premium Edition is valid to %s"
 msgstr "Ihre Premium Edition ist gültig bis zum %s"
 
+msgid "Switch view"
+msgstr "Ansicht wechseln"
+
+msgid "Currently you are not participating in any events."
+msgstr "Momentan nehmen Sie an keinem Event teil."
+
 msgid "Set up your first %s"
 msgstr "Richten Sie eine %s ein"
 
@@ -9139,6 +9612,9 @@ msgstr "Anleitung"
 
 msgid "Currently you are not participating in any forums."
 msgstr "Momentan nehmen Sie an keinem Forum teil."
+
+msgid "Create new forum..."
+msgstr "Ein neues Forum anlegen..."
 
 msgid "Recommend pidder to your friends"
 msgstr "Empfehlen Sie pidder Ihren Freunden"
@@ -9158,6 +9634,33 @@ msgstr ""
 "Sie können wählen, ob pidder die Einladungsmail erstellen soll, oder ob Sie "
 "dafür Ihr eigenes Mailprogramm verwenden möchten."
 
+msgid "Select the tab that you want to move the widget to:"
+msgstr "Wählen Sie den Reiter aus, in den Sie das Widget verschieben möchten:"
+
+msgid "This will remove the widget from your dashboard."
+msgstr "Hiermit wird das Widget aus Ihrem Dashboard entfernt."
+
+msgid "Removing widget %s"
+msgstr "Widget %s entfernen"
+
+msgid "Move this widget"
+msgstr "Dieses Widget verschieben"
+
+msgid "Remove this widget"
+msgstr "Dieses Widget entfernen"
+
+msgid "Edit widget"
+msgstr "Widget bearbeiten"
+
+msgid "Refresh widget"
+msgstr "Widget aktualisieren"
+
+msgid "Add note"
+msgstr "Notiz hinzufügen"
+
+msgid "Float widget"
+msgstr "Widget im eigenen Fenster öffnen"
+
 msgid "Currently you have not stored any notes."
 msgstr "Momentan haben Sie keine Notizen gespeichert."
 
@@ -9166,6 +9669,9 @@ msgstr "Neue Notiz hinzufügen"
 
 msgid "Show note..."
 msgstr "Notiz anzeigen..."
+
+msgid "Could not find widget content"
+msgstr "Konnte für dieses Widget keinen Inhalt finden."
 
 msgid "Add Contacts"
 msgstr "Kontakte hinzufügen"
@@ -9289,11 +9795,11 @@ msgid "Let's go through them one by one."
 msgstr "Lassen Sie uns diese eine nach der anderen betrachten."
 
 msgid ""
-"Please open the dialog \"%{dialog_name}\" by clicking on the %{item_img} %"
-"{item} in the toolbox."
+"Please open the dialog \"%{dialog_name}\" by clicking on the %{item_img} "
+"%{item} in the toolbox."
 msgstr ""
-"Bitte öffnen Sie den Dialog \"%{dialog_name}\", indem Sie auf das %"
-"{item_img} %{item} in der Toolbox klicken."
+"Bitte öffnen Sie den Dialog \"%{dialog_name}\", indem Sie auf das "
+"%{item_img} %{item} in der Toolbox klicken."
 
 msgid "add contact icon"
 msgstr "Kontakte hinzufügen-Icon"
@@ -9389,11 +9895,11 @@ msgstr ""
 "Warnmeldung."
 
 msgid ""
-"You can now close the dialog to verify that the new contact \"%{contact_name}"
-"\" is now part of your address book."
+"You can now close the dialog to verify that the new contact "
+"\"%{contact_name}\" is now part of your address book."
 msgstr ""
-"Sie können den Dialog nun schließen und überprüfen, dass der neue Kontakt \"%"
-"{contact_name}\" nun in Ihrem Adressbuch vorkommt."
+"Sie können den Dialog nun schließen und überprüfen, dass der neue Kontakt "
+"\"%{contact_name}\" nun in Ihrem Adressbuch vorkommt."
 
 msgid "pidder_username"
 msgstr "Pidder"
@@ -9420,11 +9926,11 @@ msgstr ""
 "Kontakt über  Kombination von Identitätsnummer und Verifizierung hinzufügen."
 
 msgid ""
-"Please open the dialog \"%{dialog_name}\" once more by clicking on the %"
-"{item_img} %{item} in the toolbox."
+"Please open the dialog \"%{dialog_name}\" once more by clicking on the "
+"%{item_img} %{item} in the toolbox."
 msgstr ""
-"Bitte öffnen Sie den Dialog \"%{dialog_name}\" erneut, indem Sie auf das %"
-"{item_img} %{item} in der Toolbox klicken."
+"Bitte öffnen Sie den Dialog \"%{dialog_name}\" erneut, indem Sie auf das "
+"%{item_img} %{item} in der Toolbox klicken."
 
 msgid "Switch tab"
 msgstr "Reiter wechseln"
@@ -9610,8 +10116,8 @@ msgid ""
 "Or you may close the wizard by clicking on the %{cancel_icon} cancel icon "
 "above."
 msgstr ""
-"Oder Sie schließen diesen Assistenten durch Klick auf das obige %"
-"{cancel_icon} Abbrechen-Icon."
+"Oder Sie schließen diesen Assistenten durch Klick auf das obige "
+"%{cancel_icon} Abbrechen-Icon."
 
 msgid "Data Structure"
 msgstr "Datenstruktur"
@@ -9626,8 +10132,8 @@ msgid ""
 "You will learn how to edit an %{identity_img} identity, a %{persona_img} "
 "persona,"
 msgstr ""
-"Darin lernen Sie, wie Sie eine %{identity_img} Identität, eine %"
-"{persona_img} Persona"
+"Darin lernen Sie, wie Sie eine %{identity_img} Identität, eine "
+"%{persona_img} Persona"
 
 msgid "and a %{wallet_img} wallet with the help of the pidder toolbox."
 msgstr ""
@@ -9718,8 +10224,8 @@ msgid ""
 "Once you are happy with your changes click on the \"%{button}\" button to "
 "save your changes."
 msgstr ""
-"Wenn Sie mit Ihren Änderungen zufrieden sind, klicken Sie auf  den \"%"
-"{button}\" Button, um Ihre Änderungen zu speichern."
+"Wenn Sie mit Ihren Änderungen zufrieden sind, klicken Sie auf  den "
+"\"%{button}\" Button, um Ihre Änderungen zu speichern."
 
 msgid ""
 "This button will only become active once you have made a change in the "
@@ -10034,11 +10540,260 @@ msgstr ""
 "Sie wissen nun, wie Sie Karten anlegen, Segmente hinzufügen und die "
 "Freigabelevel für Ihre Informationen festlegen."
 
-msgid "This wizard will introduce you to pidder forums."
-msgstr "Dieser Assistent stellt Ihnen die pidder Foren vor."
+msgid "This wizard will introduce you to events within pidder."
+msgstr "Dieser Assistent stellt Ihnen die pidder Events vor."
 
 msgid "You will learn how to create and manage %{item_img} %{item}."
 msgstr "Darin lernen Sie, wie Sie %{item_img} %{item} anlegen und verwalten."
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "So to begin, let's navigate to the %{module} view."
+msgstr "Lassen Sie uns zum Anfang zur %{module}-Ansicht navigieren."
+
+msgid "dashboard icon"
+msgstr "Dashboard-Icon"
+
+msgid "Add event widget"
+msgstr "Event-Widget hinzufügen"
+
+msgid "The currently selected dashboard tab does not contain an event widget."
+msgstr "Der ausgewählte Dashboard-Reiter enthält kein Event-Widget."
+
+msgid ""
+"So you can either switch to a dashboard tab that does contain an event "
+"widget, or you can add an event widget to the current tab."
+msgstr ""
+"Sie können entweder zu einem Reiter wechseln, der ein Event-Widget enthält, "
+"oder Sie legen ein Event-Widget im aktuellen Reiter an."
+
+msgid ""
+"To do so click on the highlighted %{icon} drop down icon to open the drop "
+"down menu."
+msgstr ""
+"Dazu klicken Sie bitte auf das hervorgehobene %{icon} Icon, um das Dropdown-"
+"Menü des Reiters zu öffnen."
+
+msgid "In the drop down menu now click on %{icon} %{entry}."
+msgstr "Klicken Sie nun im Dropdown-Menü des Reiters auf %{icon} %{entry}."
+
+msgid "Select event widget"
+msgstr "Event-Widget auswählen"
+
+msgid "From the list of available widgets please select the option 'Events'."
+msgstr ""
+"Wählen Sie bitte aus der Liste der verfügbaren Widgets die Option 'Events' "
+"aus."
+
+msgid ""
+"After your selection please click on the %{update} button to add the widget "
+"to the current dashboard tab."
+msgstr ""
+"Nach Ihrer Auswahl klicken Sie bitte auf den %{update} Button, um das Widget "
+"zum aktuellen Dashboard-Reiter hinzuzufügen."
+
+msgid "Add widget"
+msgstr "Widget hinzufügen"
+
+msgid "Open event dialog"
+msgstr "Event-Dialog öffnen"
+
+msgid "Now let's add a new event."
+msgstr "Nun fügen wir einen neuen Event hinzu."
+
+msgid ""
+"From the edit bar of the event widget, please click on the %{icon} Add event "
+"icon."
+msgstr ""
+"Dazu klicken Sie bitte in der Bearbeitungsleiste des Event-Widgets auf das "
+"%{icon} Event-hinzufügen-Icon."
+
+msgid "This will open the event dialog."
+msgstr "Dadurch wird der Event-Dialog geöffnet."
+
+msgid "Add event data"
+msgstr "Eventdaten"
+
+msgid "Now fill in the data for your event."
+msgstr "Nun befüllen Sie die Felder für Ihren neuen Event."
+
+msgid ""
+"Please notice that even though only the title is a mandatory field, also "
+"start and end of the event will be submitted."
+msgstr ""
+"Bitte beachten Sie, dass obwohl nur der Titel befüllt werden muss, immer "
+"auch Start- und Enddatum übermittelt werden."
+
+msgid "Go to next step"
+msgstr "Nächster Schritt"
+
+msgid "Once you have entered the data for your event, switch to the next step."
+msgstr ""
+"Wenn Sie mit Ihrer Eingabe zufrieden sind, wechseln Sie zum nächsten Schritt."
+
+msgid "To that end, click on the 'Next Step' button."
+msgstr "Dazu klicken Sie bitte auf den 'Nächster Schritt'-Button."
+
+msgid "Add participants"
+msgstr "Teilnehmer festlegen"
+
+msgid "Now add the participants to your event."
+msgstr "Nun fügen Sie die gewünschten Teilnehmer zum Event hinzu."
+
+msgid "Select one or more contacts or groups from the selectbox on the left."
+msgstr ""
+"Wählen Sie einen oder mehrere Kontakte oder Gruppen aus der Liste links aus."
+
+msgid ""
+"For the purpose of the example add %{own_identity} to the list of "
+"participants."
+msgstr ""
+"Für das Beispiel fügen Sie bitte %{own_identity} zur Liste der Teilnehmer "
+"hinzu."
+
+msgid "your own identity"
+msgid_plural "one of your own identities"
+msgstr[0] "Ihre eigene Identität"
+msgstr[1] "eine Ihrer eigenen Identitäten"
+
+msgid ""
+"Also select which of your pidder identities is going to be the administrator "
+"of this event."
+msgstr ""
+"Außerdem legen Sie bitte fest, welche Ihrer Identitäten der Administrator "
+"des Events sein soll."
+
+msgid ""
+"Once you are happy with your selection of participants, switch to the next "
+"step."
+msgstr ""
+"Wenn Sie mit Ihrer Auswahl zufrieden sind, wechseln Sie zum nächsten Schritt."
+
+msgid "In this tab you can determine the 'RSVP' options for your event."
+msgstr ""
+"In diesem Reiter können Sie die 'RSVP'-Einstellungen Ihres Events festlegen."
+
+msgid ""
+"Once you have set the RSVP options to your satisfaction, please create the "
+"new event by clicking on the %{button} button."
+msgstr ""
+"Wenn Sie mit den 'RSVP'-Einstellungen zufrieden sind, können Sie den Event "
+"durch Klick auf  den \"%{button}\" Button anlegen."
+
+msgid "Display events"
+msgstr "Events anzeigen"
+
+msgid "The participants of the event will be notified with a pidder message."
+msgstr ""
+"Die Teilnehmer des Events werden durch eine pidder Nachricht informiert."
+
+msgid ""
+"Depending on your settings for this event you will see additional tabs for "
+"RSVP and comments, respectively."
+msgstr ""
+"Abhängig von den Einstellungen, die Sie für diesen Event festgelegt haben, "
+"werden Sie weitere Reiter für Rückmeldungen und Kommentare sehen."
+
+msgid ""
+"If RSVP is switched on and you added your own identity to the list of "
+"participants you can now set your RSVP status."
+msgstr ""
+"Falls Sie RSVP für den Event aktiviert haben und Ihre eigene Identität zur "
+"Liste der Teilnehme hinzugefügt haben, können Sie nun Ihren RSVP Status "
+"setzen."
+
+msgid "Furthermore you can export the event to a calendar of your choice."
+msgstr ""
+"Außerdem können Sie den Event in einen Kalender Ihrer Wahl exportieren."
+
+msgid ""
+"As the administrator of the event you can also edit the event by clicking on "
+"the %{edit} button."
+msgstr ""
+"Als Administrator des Events können Sie diesen bearbeiten, indem sie auf den "
+"%{edit} Button klicken."
+
+msgid "Edit event"
+msgstr "Event bearbeiten"
+
+msgid "The new event is now displayed in your events list."
+msgstr "Der neue Event wird nun in der Eventliste dargestellt."
+
+msgid "The new event is now displayed in the event calendar."
+msgstr "Der neue Event wird nun in Ihrem Eventkalender dargestellt."
+
+msgid ""
+"In case you do not wish to see events from the past, you can switch them off "
+"in your user defaults."
+msgstr ""
+"Wenn Sie Events aus der Vergangenheit nicht angezeigt bekommen möchten, "
+"können Sie dies in Ihren Einstellungen deaktivieren."
+
+msgid ""
+"Clicking on the entry in the listing will open the dialog to display the "
+"event."
+msgstr ""
+"Wenn Sie auf einen Listeneintrag klicken, wird der Event in einem eigenen "
+"Dialog dargestellt."
+
+msgid ""
+"Clicking on the event date in the event calendar will open the dialog to "
+"display the event."
+msgstr ""
+"Ein Klick auf das Event-Datum im Eventkalender wird den Dialog für den Event "
+"öffnen."
+
+msgid "Switch display"
+msgstr "Ansicht wechseln"
+
+msgid "You can switch between two types of display for your events:"
+msgstr "Sie können aus zwei Sichten für Ihre Events auswählen:"
+
+msgid "A list view and a calendar view."
+msgstr "Eine Listensicht und eine Kalendersicht."
+
+msgid ""
+"To switch between the two, please click on the %{icon} Switch view icon."
+msgstr ""
+"Um zwischen den beiden Sichten zu wechseln, klicken Sie bitte auf das "
+"%{icon} Ansicht-wechseln-Icon."
+
+msgid "In the calendar view days with events are highlighted."
+msgstr "In der Kalendersicht werden Tage mit Events hervorgehoben dargestellt."
+
+msgid "Alternative ways"
+msgstr "Alternativer Weg"
+
+msgid "You can create new events not only from the dashboard."
+msgstr "Sie können neue Events nicht nur vom Dashboard aus hinzufügen."
+
+msgid "To demonstrate, let's navigate to your %{module} view."
+msgstr ""
+"Um das zu veranschaulichen, lassen Sie uns zur %{module}-Ansicht wechseln."
+
+msgid "Community toolbox"
+msgstr "Community Toolbox"
+
+msgid ""
+"Please open the toolbox \"%{toolbox_name}\" on the right by clicking on the "
+"text \"%{toolbox_name}\"."
+msgstr ""
+"Dazu öffnen Sie bitte rechts die Toolbox \"%{toolbox_name}\", indem Sie auf "
+"den Text \"%{toolbox_name}\" klicken."
+
+msgid ""
+"The toolbox will open and display icons for all available options, including "
+"adding a new event."
+msgstr ""
+"Die Toolbox öffnet sich und zeigt Icons für alle verfügbaren Optionen, "
+"inbesondere auch zum Hinzufügen eines Events."
+
+msgid "You have learned how to create and manage events."
+msgstr "Sie haben gelernt, wie Sie Events anlegen und verwalten."
+
+msgid "This wizard will introduce you to pidder forums."
+msgstr "Dieser Assistent stellt Ihnen die pidder Foren vor."
 
 msgid "message icon"
 msgstr "Nachrichten-Icon"
@@ -10106,8 +10861,8 @@ msgstr ""
 
 msgid "To view your newly created forum, click on the tab %{tab_name}."
 msgstr ""
-"Um Ihr neu angelegtes Forum zu betrachten, klicken Sie auf den Reiter %"
-"{tab_name}."
+"Um Ihr neu angelegtes Forum zu betrachten, klicken Sie auf den Reiter "
+"%{tab_name}."
 
 msgid "Select topic"
 msgstr "Thema auswählen"
@@ -10141,8 +10896,8 @@ msgstr ""
 "aussehen wird."
 
 msgid ""
-"Once you are happy with your posting you can save it by clicking the \"%"
-"{button}\" button."
+"Once you are happy with your posting you can save it by clicking the "
+"\"%{button}\" button."
 msgstr ""
 "Wenn Sie mit Ihrem Beitrag zufrieden sind, speichern Sie ihn durch Klick "
 "auf  den \"%{button}\" Button."
@@ -10271,8 +11026,8 @@ msgid ""
 "Once your are happy with your selection click on the \"%{button}\" button to "
 "save your changes."
 msgstr ""
-"Wenn Sie mit Ihren Auswahl zufrieden sind, klicken Sie auf  den \"%{button}"
-"\" Button, um diese zu speichern."
+"Wenn Sie mit Ihrer Auswahl zufrieden sind, klicken Sie auf  den "
+"\"%{button}\" Button, um diese zu speichern."
 
 msgid ""
 "From the list of group members on the lower left hand side, select the ones "
@@ -10299,8 +11054,8 @@ msgid ""
 "Group administrators can edit this group by clicking on the %{edit_icon} "
 "edit icon."
 msgstr ""
-"Gruppenadministratoren können diese Gruppe bearbeiten, indem sie auf das %"
-"{edit_icon} Editier-Icon klicken."
+"Gruppenadministratoren können diese Gruppe bearbeiten, indem sie auf das "
+"%{edit_icon} Editier-Icon klicken."
 
 msgid "You have learned how to create and manage groups."
 msgstr "Sie haben gelernt, wie Sie Gruppen anlegen und verwalten."
@@ -10552,15 +11307,6 @@ msgstr ""
 msgid "Contact Center view, for managing your contacts"
 msgstr "Kontakcenter, Ihr privates Adressbuch"
 
-msgid "Dashboard"
-msgstr "Dashboard"
-
-msgid "So to begin, let's navigate to the %{module} view."
-msgstr "Lassen Sie uns zum Anfang zur %{module}-Ansicht navigieren."
-
-msgid "dashboard icon"
-msgstr "Dashboard-Icon"
-
 msgid "%{module} view"
 msgstr "%{module}-Ansicht"
 
@@ -10571,12 +11317,31 @@ msgstr ""
 "Im Dashboard werden Widgets angezeigt, die editiert, sortiert und bei Bedarf "
 "auch wieder entfernt werden können. "
 
+msgid "Widgets are organized in dashboard tabs."
+msgstr "Widgets sind in Dashboardreitern organisiert."
+
 msgid ""
-"To add a new widget to your dashboard click on the big %{item_img} on the "
-"upper right."
+"You can change the order of the tabs simply by dragging and dropping them."
+msgstr "Sie können die Reihenfolge der Reiter mittels Drag&Drop verändern."
+
+msgid "To add a new tab, use the %{item_img} icon in the last tab."
 msgstr ""
-"Um ein neues Widget hinzuzufügen, klicken Sie auf das große %{item_img}-Icon "
-"oben rechts."
+"Um einen neuen Reiter hinzuzufügen, klicken Sie auf das %{item_img}-Icon im "
+"letzten Reiter."
+
+msgid ""
+"To add a new widget to the current dashboard tab open the tab menu by "
+"clicking on the %{item_img} icon."
+msgstr ""
+"Um ein neues Widget zum aktuellen Reiter hinzuzufügen, öffnen Sie das "
+"Reitermenü, indem Sie auf das %{item_img}-Icon klicken."
+
+msgid ""
+"To move a widget to another tab use the %{item_img} icon in the widget's "
+"title bar."
+msgstr ""
+"Um ein Widget auf einen anderen Reiter zu verschieben, klicken Sie auf das "
+"%{item_img}-Icon in der Titelzeile des Widgets."
 
 msgid ""
 "Widgets that can be edited will display an %{item_img} edit icon when moving "
@@ -10598,7 +11363,7 @@ msgid ""
 "cancel icon in its title bar."
 msgstr ""
 "Ein Widget wird aus dem Dashboard entfernt, indem Sie auf das %{item_img} "
-"Abbrechen-Icon in seiner Titelzeile klicken."
+"Icon in seiner Titelzeile klicken."
 
 msgid "Next, let's navigate to the %{module} view."
 msgstr "Lassen Sie uns als Nächstes zur %{module}-Ansicht wechseln."
@@ -10609,16 +11374,16 @@ msgstr "Die Datensicht zeigt die aktuelle Persona samt ihren Daten an."
 msgid ""
 "If this persona has a profile page, there will be a switch in the persona "
 "tab\n"
-"           that lets you view either the %{profile_img} profile view or the %"
-"{wallet_img} wallet view of this persona."
+"           that lets you view either the %{profile_img} profile view or the "
+"%{wallet_img} wallet view of this persona."
 msgstr ""
 "Wenn es für diese Persona auch eine Profilseite gibt, dann wird ein Schalter "
-"angezeigt, mit dem Sie zwischen der %{profile_img} Profil-Sicht und der %"
-"{wallet_img} Brieftaschen-Sicht dieser Persona umschalten können."
+"angezeigt, mit dem Sie zwischen der %{profile_img} Profil-Sicht und der "
+"%{wallet_img} Brieftaschen-Sicht dieser Persona umschalten können."
 
 msgid ""
-"You can learn more about setting up a profile page in the wizard %"
-"{wizard_link}."
+"You can learn more about setting up a profile page in the wizard "
+"%{wizard_link}."
 msgstr ""
 "In dem Assistenten %{wizard_link} erfahren Sie mehr darüber, wie Sie eine "
 "Profilseite einrichten."
@@ -10627,8 +11392,8 @@ msgid "Profile setup"
 msgstr "Profil einrichten"
 
 msgid ""
-"The options of the wallet view are covered in more detail in the wizard %"
-"{wizard_link}."
+"The options of the wallet view are covered in more detail in the wizard "
+"%{wizard_link}."
 msgstr ""
 "Die Optionen der Brieftaschen-Sicht beschreiben wir ausführlicher in dem "
 "Assistenten %{wizard_link}."
@@ -10733,11 +11498,11 @@ msgstr ""
 "Kontaktcenters."
 
 msgid ""
-"Those are described in more details in the wizards %{wizard_link_1}, %"
-"{wizard_link_2}, %{wizard_link_3}, and %{wizard_link_4}, respectively."
+"Those are described in more details in the wizards %{wizard_link_1}, "
+"%{wizard_link_2}, %{wizard_link_3}, and %{wizard_link_4}, respectively."
 msgstr ""
-"Diese werden detaillierter in den Assistenten  %{wizard_link_1}, %"
-"{wizard_link_2}, %{wizard_link_3} und %{wizard_link_4} beschrieben."
+"Diese werden detaillierter in den Assistenten  %{wizard_link_1}, "
+"%{wizard_link_2}, %{wizard_link_3} und %{wizard_link_4} beschrieben."
 
 msgid "Share Data"
 msgstr "Daten freigeben"
@@ -10939,11 +11704,11 @@ msgid "the paragraph"
 msgstr "dem Absatz"
 
 msgid ""
-"The paragraph now displays input fields for the %{segment_type} segment, %"
-"{segment_attribs}"
+"The paragraph now displays input fields for the %{segment_type} segment, "
+"%{segment_attribs}"
 msgstr ""
-"Die Absatz zeigt nun die Eingabefelder für das %{segment_type}-Segment, %"
-"{segment_attribs}"
+"Die Absatz zeigt nun die Eingabefelder für das %{segment_type}-Segment, "
+"%{segment_attribs}"
 
 msgid "i.e. \"Label\" and \"Description\"."
 msgstr "also \"Beschriftung\" und \"Beschreibung\"."
@@ -11011,8 +11776,8 @@ msgstr ""
 "Absatz noch einmal aufteilen."
 
 msgid ""
-"To that end, move your mouse over the paragraph headline and click on the %"
-"{column_icon} columns icon in the edit options."
+"To that end, move your mouse over the paragraph headline and click on the "
+"%{column_icon} columns icon in the edit options."
 msgstr ""
 "Dazu bewegen Sie den Mauszeiger über die Absatzüberschrift und klicken auf "
 "das %{column_icon} Spalten-Icon in den Bearbeitungsoptionen."
@@ -11236,8 +12001,8 @@ msgstr ""
 "letzten drei Schritte wiederholen und dabei einen anderen Level zuweisen."
 
 msgid ""
-"You may also widthdraw the trust level from the contact by clicking on the %"
-"{withdraw_icon} withdraw icon."
+"You may also widthdraw the trust level from the contact by clicking on the "
+"%{withdraw_icon} withdraw icon."
 msgstr ""
 "Sie können dem Kontakt den Vertrauenslevel auch wieder entziehen, indem Sie "
 "auf das %{withdraw_icon} Zurückziehen-Icon klicken."
@@ -11265,8 +12030,8 @@ msgid ""
 "For the second alternative to assign trust levels, we need to navigate to "
 "the %{module} view."
 msgstr ""
-"Für die zweite Alternative, Vertrauenslevel zuzuweisen, müssen wir in die %"
-"{module}-Ansicht wechseln."
+"Für die zweite Alternative, Vertrauenslevel zuzuweisen, müssen wir in die "
+"%{module}-Ansicht wechseln."
 
 msgid "Now we will edit the %{item}."
 msgstr "Nun bearbeiten wir die %{item}."
@@ -11274,8 +12039,8 @@ msgstr "Nun bearbeiten wir die %{item}."
 msgid ""
 "Open the \"%{dialog_name}\" dialog by clicking on the %{icon} %{icon_label}."
 msgstr ""
-"Öffnen Sie den Dialog \"%{dialog_name}\", indem Sie auf das %{icon} %"
-"{icon_label} klicken."
+"Öffnen Sie den Dialog \"%{dialog_name}\", indem Sie auf das %{icon} "
+"%{icon_label} klicken."
 
 msgid "trust level icon"
 msgstr "Vertrauenslevel-Icon"
@@ -11443,8 +12208,8 @@ msgstr "Ihre Passphrase wird derzeit als %s verwendet."
 
 msgid "In order to use one-time-passphrase, please choose a different %s."
 msgstr ""
-"Wenn Sie Einmal-Passphrasen verwenden möchten, wählen Sie bitte ein anderes %"
-"s."
+"Wenn Sie Einmal-Passphrasen verwenden möchten, wählen Sie bitte ein anderes "
+"%s."
 
 msgid "minute"
 msgstr "Minute"
@@ -11472,6 +12237,9 @@ msgstr "Freigabelevel der Karte wurde auf  %s gesetzt."
 
 msgid "Processing dropped element."
 msgstr "Verarbeitete das Element."
+
+msgid "Deleting %s."
+msgstr "Lösche %s."
 
 msgid "Navigate to account overview..."
 msgstr "Zur Kontoübersicht wechseln"
@@ -12348,13 +13116,7 @@ msgstr "Beschreibung"
 msgid "TimeRange$Start"
 msgstr "Beginn"
 
-msgid "Start"
-msgstr "Beginn"
-
 msgid "TimeRange$End"
-msgstr "Ende"
-
-msgid "End"
 msgstr "Ende"
 
 msgid "TimeRange$Description"
@@ -12386,205 +13148,3 @@ msgstr "Bankdaten"
 
 msgid "Mail"
 msgstr "E-Mail"
-
-#~ msgid "%s  assigned succesfully"
-#~ msgstr "%s wurde erfolgreich verknüpft."
-
-#, fuzzy
-#~ msgid "Donation complete."
-#~ msgstr "Donation-Seite"
-
-#~ msgid "Thank you for your confidence in pidder."
-#~ msgstr "Vielen Dank für Ihr Vertrauen in pidder."
-
-#~ msgid "Account not known"
-#~ msgstr "Konto nicht bekannt"
-
-#~ msgid "Booking premium edition"
-#~ msgstr "Booking premium edition"
-
-#~ msgid "Waiting for invoice generation to finish."
-#~ msgstr "Warte auf Abschluss der Rechnungserzeugung."
-
-#~ msgid "Purchase complete."
-#~ msgstr "Einkauf abgeschlossen."
-
-#~ msgid "You have successfully sponsored %s's pidder Premum Edition for %s."
-#~ msgstr ""
-#~ "Sie haben erfolgreich %s für die pidder Premium Edition für %s gesponsert."
-
-#~ msgid "You will find your orders and invoices at \"Account - Invoices\"."
-#~ msgstr ""
-#~ "Sie finden Ihre Aufträge und Rechnungen unter \"Konto - Rechnungen\"."
-
-#~ msgid "You may also download the invoice using this link"
-#~ msgstr "Sie können die Rechnung auch direkt über diesen Link herunterladen"
-
-#~ msgid "Invoice for order %s"
-#~ msgstr "Rechnung für Auftragsnummer %s"
-
-#~ msgid "Additional invoice information"
-#~ msgstr "Zusätzliche Rechnungsinformationen"
-
-#~ msgid "optional"
-#~ msgstr "optional"
-
-#~ msgid ""
-#~ "Fill in this information only if you need it to appear on your invoice."
-#~ msgstr ""
-#~ "Befüllen Sie diese Felder nur, wenn Sie diese für Ihre Rechnung benötigen."
-
-#~ msgid ""
-#~ "Please check your data carefully because you can create an invoice only "
-#~ "once."
-#~ msgstr ""
-#~ "Bitte prüfen Sie Ihre Daten sorgfältig, da Sie eine Rechnung mit Ihren "
-#~ "Adressinformationen nur ein Mal erzeugen können."
-
-#~ msgid "Create invoice"
-#~ msgstr "Rechnung anlegen"
-
-#~ msgid "You have customized your invoice with your address information."
-#~ msgstr ""
-#~ "Die vorliegende Rechnung beinhaltet bereits Ihre Adressinformationen."
-
-#~ msgid ""
-#~ "If you need an invoice with different address information please contact "
-#~ "us at %s"
-#~ msgstr ""
-#~ "Wenn Sie eine Rechnung mit abweichenden Adressinformationen benötigen, "
-#~ "kontaktieren Sie uns bitte unter %s"
-
-#~ msgid "Beneficiary"
-#~ msgstr "Begünstigter"
-
-#~ msgid "Subscription period"
-#~ msgstr "Gültigkeitsdauer"
-
-#~ msgid ""
-#~ "This order is subject to the regulations of the %s for the pidder "
-#~ "services."
-#~ msgstr ""
-#~ "Dieser Auftrag unterliegt den Bedingungen der %s für die pidder-Dienste."
-
-#~ msgid "Terms and Conditions"
-#~ msgstr "Allgemeinen Geschäftsbedingungen"
-
-#~ msgid "We would like to point out your \"%s\"."
-#~ msgstr "Wir möchten Sie auf Ihr \"%s\" hinweisen."
-
-#~ msgid "Right of revocation"
-#~ msgstr "Widerrufsrecht"
-
-#~ msgid ""
-#~ "The Premium Edition removes all limitations of the Base Edition and "
-#~ "offers additional functionality."
-#~ msgstr ""
-#~ "Die Premium Edition hebt alle Beschränkungen der Basis Edition auf und "
-#~ "bietet zusätzliche Funktionen."
-
-#~ msgid "Buying credit for the Premium Edition works on a pre-paid basis."
-#~ msgstr ""
-#~ "Die Bezahlung funktioniert als Prepaid-Modell, d.h. Sie kaufen den "
-#~ "Service im Voraus für den gewünschten Zeitraum ein."
-
-#~ msgid "First you select the number of months you wish to purchase."
-#~ msgstr ""
-#~ "Zunächst wählen Sie die Anzahl an Monaten, die Sie einkaufen möchten."
-
-#~ msgid "Then you select the payment method of your choice."
-#~ msgstr "Dann wählen Sie die Bezahlmethode, die Sie verwenden möchten."
-
-#~ msgid ""
-#~ "Please note that all payment details you provide in the purchase step are "
-#~ "neither handled nor stored within pidder."
-#~ msgstr ""
-#~ "Alle Bezahldaten, die in dem nächsten Schritt abgefragt werden, werden in "
-#~ "pidder weder verarbeitet noch gespeichert."
-
-#~ msgid ""
-#~ "In compliance with PCI DSS all payment data is processed and handled by "
-#~ "our payment service provider only."
-#~ msgstr ""
-#~ "Unter Einhaltung von PCI DSS werden sämtliche Bezahldaten ausschließlich "
-#~ "bei unseren Zahlungsdienstleister verarbeitet."
-
-#~ msgid ""
-#~ "In case you already have an active Premium Edition, the months you "
-#~ "purchase here will extend your current credit."
-#~ msgstr ""
-#~ "Für den Fall, dass Sie bereits eine aktive Premium Edition haben, werden "
-#~ "die eingekauften Monate zur aktuellen Gültigkeitsdauer addiert."
-
-#~ msgid ""
-#~ "Your Premium Edition period will not be extended automatically unless you "
-#~ "expressively tell us you wish this to happen."
-#~ msgstr ""
-#~ "Eine automatische Verlängerung der Premium Edition erfolgt nicht, es sei "
-#~ "denn, Sie wünschen das ausdrücklich."
-
-#~ msgid "There is no hidden subscription."
-#~ msgstr "Versteckte Abofallen gibt es nicht. "
-
-#~ msgid "Upgrade your pidder account"
-#~ msgstr "Upgrade Ihres pidder Kontos"
-
-#~ msgid ""
-#~ "In case you want to upgrade your pidder account to the Premium Edition or "
-#~ "buy additional months for your existing Premium Edition you can do so "
-#~ "from the purchase page."
-#~ msgstr ""
-#~ "Um Ihr pidder Konto für die Premium Edition freizuschalten oder "
-#~ "zusätzlich Monate zu Ihrer bestehenden Premium Edition einzukaufen, "
-#~ "wechseln Sie zur Einkaufsseite. "
-
-#~ msgid "purchase icon"
-#~ msgstr "Einkaufswagen-Icon"
-
-#~ msgid "secure because it uses strong encryption"
-#~ msgstr "sicher, denn es wird starke Verschlüsselung verwendet"
-
-#~ msgid "Staticpage meta-description Secure"
-#~ msgstr ""
-#~ "Datenverschlüsselung bereits im Browser. Nur Sie als Nutzer haben den "
-#~ "Schlüssel zu Ihren Daten."
-
-#~ msgid "Staticpage meta-keywords Secure"
-#~ msgstr ""
-#~ "Host-Proof, sha, aes, rsa, https, verschlüsselung, digitaler "
-#~ "schlüsselbund, passphrase, starke passwörter "
-
-#~ msgid "from 1.99 €"
-#~ msgstr "ab 1.99 €"
-
-#~ msgid "Premium edition"
-#~ msgstr "Premium Edition"
-
-#~ msgid ""
-#~ "If you want to unlock pidder's full potential you might want to %s to the "
-#~ "premium edition."
-#~ msgstr ""
-#~ "Wenn Sie den vollen Funktionsumfang von pidder nutzen möchten, empfehlen "
-#~ "wir ein %s auf die Premium Edition."
-
-#~ msgid ""
-#~ "Should you want to continue to use the premium edition after that date "
-#~ "you can %s additional months."
-#~ msgstr ""
-#~ "Wenn Sie die Premium Edition auch nach diesem Datum weiternutzen möchten, "
-#~ "können Sie weitere Monate %s."
-
-#~ msgid "do purchase"
-#~ msgstr "einkaufen"
-
-#~ msgid "Extend your premium edition..."
-#~ msgstr "Verlängern Sie Ihre Premium Edition..."
-
-#~ msgid "pidder as a gift"
-#~ msgstr "pidder verschenken"
-
-#~ msgid "Surprise someone with a special treat."
-#~ msgstr "Machen Sie jemandem eine Freude."
-
-#~ msgid "Sponsor a pidder account"
-#~ msgstr "Werden Sie pidder-Sponsor"
