@@ -1,13 +1,13 @@
 # PIDDER LANGUAGE RESOURCE.
-# Copyright (C) 2008 - 2012
-# This file is distributed under the same license as the PIDDER package.
-# Jonah <jonah@pidder.com> 2012.
+# Copyright (C) 2008 - 2013
+# This file is distributed under the same license as the PACKAGE package.
+# Jonah <jonah@pidder.de> 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidder\n"
-"POT-Creation-Date: 2012-10-16 11:15+0200\n"
-"PO-Revision-Date: 2012-10-16 11:21+0100\n"
+"POT-Creation-Date: 2012-12-20 15:27+0100\n"
+"PO-Revision-Date: 2012-12-20 15:30+0100\n"
 "Last-Translator: Jonah <jonah@pidder.com>\n"
 "Language-Team: Development\n"
 "MIME-Version: 1.0\n"
@@ -3386,6 +3386,9 @@ msgstr "Level label P"
 msgid "UserDefault|Show past events"
 msgstr "UserDefault|Show past events"
 
+msgid "UserDefault|Next steps"
+msgstr "Next steps"
+
 msgid "wallet"
 msgstr "wallet"
 
@@ -3562,6 +3565,12 @@ msgstr "Wizards"
 
 msgid "Enable or disable the pidder wizards."
 msgstr "Enable or disable the pidder wizards."
+
+msgid "Next steps"
+msgstr "Next steps"
+
+msgid "Enable or disable the display of next steps."
+msgstr "Enable or disable the display of next steps."
 
 msgid ""
 "Picture display | Determines whether wallets will show associated pictures "
@@ -5248,6 +5257,12 @@ msgstr "Loading preview"
 msgid "Show all"
 msgstr "Show all"
 
+msgid "Currently this contact does not provide a preview."
+msgstr "Currently this contact does not provide a preview."
+
+msgid "Click on the button 'Show all' to view the shared data."
+msgstr "Click on the button 'Show all' to view the shared data."
+
 msgid "You have not assigned any contacts to this trust level."
 msgstr "You have not assigned any contacts to this trust level."
 
@@ -5872,6 +5887,9 @@ msgstr "Events"
 
 msgid "A list of the pidder events you manage or have been invited to."
 msgstr "A list of the pidder events you manage or have been invited to."
+
+msgid "Stay informed about your upcoming or past events."
+msgstr "Stay informed about your upcoming or past events."
 
 msgid "Add widgets"
 msgstr "Add widgets"
@@ -6956,17 +6974,31 @@ msgstr "No personas available."
 
 msgid ""
 "Clearance name of identity | This is the name of the identity as it will be "
-"displayed to the people you share this identity with."
+"displayed in the addressbook of your pidder contacts."
 msgstr ""
 "Clearance name of identity | This is the name of the identity as it will be "
-"displayed to the people you share this identity with."
+"displayed in the addressbook of your pidder contacts."
 
 msgid ""
-"Clearance description of identity | Here you can describe this identity as "
-"you wish it to be seen by the people you share this identity with."
+"You can choose to make this different from the name which is only displayed "
+"to yourself."
 msgstr ""
-"Clearance description of identity | Here you can describe this identity as "
-"you wish it to be seen by the people you share this identity with."
+"You can choose to make this different from the name which is only displayed "
+"to yourself."
+
+msgid ""
+"Clearance description of identity | This description will be displayed in "
+"the adressbook of your pidder contacts."
+msgstr ""
+"Clearance description of identity | This description will be displayed in "
+"the adressbook of your pidder contacts."
+
+msgid ""
+"Verification | This is a secret specific for this identity. Communicate this "
+"together with your identity number so others can contact you more securely."
+msgstr ""
+"Verification | This is a secret specific for this identity. Communicate this "
+"together with your identity number so others can contact you more securely."
 
 msgid "Last name"
 msgstr "Last name"
@@ -6992,8 +7024,36 @@ msgstr "Please enter the data for your new identity."
 msgid "except the %{last_name} field"
 msgstr "except the %{last_name} field"
 
+msgid ""
+"It is entirely up to you whether the data you enter here represents your "
+"real or a fictitious identity."
+msgstr ""
+"It is entirely up to you whether the data you enter here represents your "
+"real or a fictitious identity."
+
+msgid ""
+"By default, everything you enter here will only be visible for yourself "
+"until you explicitely decide to share it."
+msgstr ""
+"By default, everything you enter here will only be visible for yourself "
+"until you explicitely decide to share it."
+
+msgid ""
+"The only mandatory field in this dialog is the field 'Last Name' which is "
+"used as an identifier for this identity."
+msgstr ""
+"The only mandatory field in this dialog is the field 'Last Name' which is "
+"used as an identifier for this identity."
+
 msgid "Enter address data"
 msgstr "Enter address data"
+
+msgid ""
+"If you do not want to fill in this data now you can safely skip this step "
+"and add it any time later."
+msgstr ""
+"If you do not want to fill in this data now you can safely skip this step "
+"and add it any time later."
 
 msgid "Enter contact data"
 msgstr "Enter contact data"
@@ -7005,20 +7065,28 @@ msgstr ""
 "Please notice that input fields with a red border and background color "
 "indicate that data provided in those fields will not be encrypted."
 
-msgid ""
-"Please enter a name how this identity will be displayed to your contacts."
-msgstr ""
-"Please enter a name how this identity will be displayed to your contacts."
+msgid "Public name"
+msgstr "Public name"
+
+msgid "Public description"
+msgstr "Public description"
+
+msgid "Secret to securely establish contact"
+msgstr "Secret to securely establish contact"
 
 msgid ""
-"Please enter a description for displaying this identity to your contacts."
+"In this step you can determine what information about your identity will be "
+"available so other users can contact you."
 msgstr ""
-"Please enter a description for displaying this identity to your contacts."
+"In this step you can determine what information about your identity will be "
+"available so other users can contact you."
 
 msgid ""
-"Please enter a secret that will allow others to securely establish contact."
+"If you do not want to fill in this data now you can safely leave it empty "
+"and add it any time later."
 msgstr ""
-"Please enter a secret that will allow others to securely establish contact."
+"If you do not want to fill in this data now you can safely leave it empty "
+"and add it any time later."
 
 msgid "Create identity"
 msgstr "Create identity"
@@ -7431,6 +7499,59 @@ msgstr "Search in your data"
 
 msgid "Loading overview"
 msgstr "Loading overview"
+
+msgid "Grats! You have created your first identity."
+msgstr "Grats! You have created your first identity."
+
+msgid "Create your %{first_identity}."
+msgstr "Create your %{first_identity}."
+
+msgid "first identity"
+msgstr "first identity"
+
+msgid ""
+"Now %{invite_link}, so you can start to communicate with them confidentially."
+msgstr ""
+"Now %{invite_link}, so you can start to communicate with them confidentially."
+
+msgid "invite some friends"
+msgstr "invite some friends"
+
+msgid ""
+"Check %{addressbook_link} to see if some of your friends are already using "
+"pidder."
+msgstr ""
+"Check %{addressbook_link} to see if some of your friends are already using "
+"pidder."
+
+msgid "the pidder public address book"
+msgstr "the pidder public address book"
+
+msgid ""
+"Use the %{wizard_link} and check out our %{wiki_link} for an introduction of "
+"the pidder features."
+msgstr ""
+"Use the %{wizard_link} and check out our %{wiki_link} for an introduction of "
+"the pidder features."
+
+msgid "pidder wizards"
+msgstr "pidder wizards"
+
+msgid "wiki pages"
+msgstr "wiki pages"
+
+msgid "Feature_list"
+msgstr "Feature_list"
+
+msgid "%{click_here} if you do not wish to see this next steps window anymore."
+msgstr ""
+"%{click_here} if you do not wish to see this next steps window anymore."
+
+msgid "click here"
+msgstr "click here"
+
+msgid "(You can re-activate it from within your preferences)."
+msgstr "(You can re-activate it from within your preferences)."
 
 msgid "Contact card view"
 msgstr "Contact card view"
@@ -8714,9 +8835,6 @@ msgstr "and add it back any time you like."
 
 msgid "Shout"
 msgstr "Shout"
-
-msgid "Enter amount"
-msgstr "Enter amount"
 
 msgid "Set clearance level for whole card."
 msgstr "Set clearance level for whole card."
@@ -11838,9 +11956,6 @@ msgid ""
 msgstr ""
 "You have learned how to assign contacts to trust level to control what "
 "information about yourself they are going to see."
-
-msgid "pidder wizards"
-msgstr "pidder wizards"
 
 msgid "Welcome to pidder wizards."
 msgstr "Welcome to pidder wizards."

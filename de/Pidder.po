@@ -1,13 +1,13 @@
 # PIDDER LANGUAGE RESOURCE.
-# Copyright (C) 2008 - 2012
+# Copyright (C) 2008 - 2013
 # This file is distributed under the same license as the PIDDER package.
-# Jonah <jonah@pidder.com> 2012.
+# Jonah <jonah@pidder.de> 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidder\n"
-"POT-Creation-Date: 2012-10-16 11:15+0200\n"
-"PO-Revision-Date: 2012-10-16 11:21+0100\n"
+"POT-Creation-Date: 2012-12-20 15:27+0100\n"
+"PO-Revision-Date: 2012-12-20 15:31+0100\n"
 "Last-Translator: Jonah <jonah@pidder.com>\n"
 "Language-Team: Entwicklung\n"
 "MIME-Version: 1.0\n"
@@ -3405,6 +3405,9 @@ msgstr "Beschriftung P"
 msgid "UserDefault|Show past events"
 msgstr "Vergangene Events anzeigen"
 
+msgid "UserDefault|Next steps"
+msgstr "Nächste Schritte"
+
 msgid "wallet"
 msgstr "Brieftasche"
 
@@ -3586,6 +3589,12 @@ msgstr "Assistenten"
 
 msgid "Enable or disable the pidder wizards."
 msgstr "Aktiviert oder deaktiviert die pidder Assistenten."
+
+msgid "Next steps"
+msgstr "Nächste Schritte"
+
+msgid "Enable or disable the display of next steps."
+msgstr "Aktiviert oder deaktiviert die Anzeige von 'Nächste Schritte'."
 
 msgid ""
 "Picture display | Determines whether wallets will show associated pictures "
@@ -5311,6 +5320,14 @@ msgstr "Lade Vorschau"
 msgid "Show all"
 msgstr "Alles zeigen"
 
+msgid "Currently this contact does not provide a preview."
+msgstr "Momentan hat dieser Kontakt Ihnen keine Vorschau freigegeben."
+
+msgid "Click on the button 'Show all' to view the shared data."
+msgstr ""
+"Klicken Sie auf den Button 'Alles anzeigen, um die Ihnen freigegebenen Daten "
+"zu sehen."
+
 msgid "You have not assigned any contacts to this trust level."
 msgstr "Sie haben diesem Vertrauenslevel keine Kontakte zugewiesen."
 
@@ -5902,7 +5919,7 @@ msgid ""
 "add them to your address book when and if they join."
 msgstr ""
 "Eine schnelle Möglichkeit, Ihre Freunde und Kontakte zu pidder einzuladen "
-"und diese automatisch in Adressbuch aufzunehmen, wenn sie die Einladung "
+"und diese automatisch in Ihr Adressbuch aufzunehmen, wenn sie die Einladung "
 "annehmen."
 
 msgid ""
@@ -5952,6 +5969,9 @@ msgstr "Events"
 
 msgid "A list of the pidder events you manage or have been invited to."
 msgstr "Eine Liste der pidder Events, an denen Sie teilnehmen."
+
+msgid "Stay informed about your upcoming or past events."
+msgstr "Bleiben Sie über neue Termine und Events auf dem Laufenden."
 
 msgid "Add widgets"
 msgstr "Widget hinzufügen"
@@ -7065,18 +7085,32 @@ msgstr "Keine Personas verfügbar"
 
 msgid ""
 "Clearance name of identity | This is the name of the identity as it will be "
-"displayed to the people you share this identity with."
+"displayed in the addressbook of your pidder contacts."
 msgstr ""
-"Freigabename der Identität | Unter diesem Namen erscheint diese Identität "
-"für andere Leute, wenn Sie ihnen diese freigeben."
+"Freigabename der Identität | Unter diesem Namen erscheint diese Identität im "
+"Adressbuch Ihrer Kontakte."
 
 msgid ""
-"Clearance description of identity | Here you can describe this identity as "
-"you wish it to be seen by the people you share this identity with."
+"You can choose to make this different from the name which is only displayed "
+"to yourself."
+msgstr ""
+"Sie können sich dazu entscheiden, hier einen anderen Namen zu wählen als "
+"denjenigen, der nur Ihnen angezeigt wird."
+
+msgid ""
+"Clearance description of identity | This description will be displayed in "
+"the adressbook of your pidder contacts."
 msgstr ""
 "Freigabebeschreibung der Identität | Hier können Sie die Identität so "
-"beschreiben, wie andere Leute, denen Sie sie freigegeben haben, sie sehen "
-"sollen."
+"beschreiben, wie Sie im Adressbuch Ihrer Kontakte erscheinen soll."
+
+msgid ""
+"Verification | This is a secret specific for this identity. Communicate this "
+"together with your identity number so others can contact you more securely."
+msgstr ""
+"Verifizierung | Dies ist ein Geheimnis speziell für diese Identität. Dies "
+"kommunizieren Sie gemeinsam mit der Identitätsnummer an Ihre Kontakte, damit "
+"diese Sie sicherer kontaktieren können."
 
 msgid "Last name"
 msgstr "Nachname"
@@ -7104,8 +7138,36 @@ msgstr ""
 msgid "except the %{last_name} field"
 msgstr "- mit Ausnahme des Feldes %{last_name} - "
 
+msgid ""
+"It is entirely up to you whether the data you enter here represents your "
+"real or a fictitious identity."
+msgstr ""
+"Es ist vollkommen Ihnen überlassen, ob die Daten, die Sie hier eingeben Ihre "
+"echte oder eine fiktive Identität repräsentieren."
+
+msgid ""
+"By default, everything you enter here will only be visible for yourself "
+"until you explicitely decide to share it."
+msgstr ""
+"Per Default wird alles was Sie hier eintragen nur für Sie sichtbar sein, bis "
+"Sie sich explizit entscheiden, was davon Sie freigeben möchten."
+
+msgid ""
+"The only mandatory field in this dialog is the field 'Last Name' which is "
+"used as an identifier for this identity."
+msgstr ""
+"Das einzige Pflichtfeld in diesem Dialog ist das Feld \"Nachname\", das für "
+"die Identifizierung der Identität verwendet wird."
+
 msgid "Enter address data"
 msgstr "Adressdaten eingeben"
+
+msgid ""
+"If you do not want to fill in this data now you can safely skip this step "
+"and add it any time later."
+msgstr ""
+"Wenn Sie diese Daten jetzt nicht ausfüllen möchten, können Sie den Schritt "
+"einfach überspringen."
 
 msgid "Enter contact data"
 msgstr "Kontaktdaten eingeben"
@@ -7117,20 +7179,28 @@ msgstr ""
 "Bitte beachten Sie, dass Eingabefelder mit einem roten Rahmen und "
 "Hintergrund signalisieren, dass diese Werte nicht verschlüsselt werden."
 
-msgid ""
-"Please enter a name how this identity will be displayed to your contacts."
-msgstr ""
-"Hier einen Namen eingeben, wie er Ihren Kontakten angezeigt werden soll."
+msgid "Public name"
+msgstr "Öffentlicher Name"
+
+msgid "Public description"
+msgstr "Öffentliche Beschreibung"
+
+msgid "Secret to securely establish contact"
+msgstr "Geheimnis zum sicheren Kontaktieren"
 
 msgid ""
-"Please enter a description for displaying this identity to your contacts."
+"In this step you can determine what information about your identity will be "
+"available so other users can contact you."
 msgstr ""
-"Bitte geben Sie hier eine Beschreibung ein, wie sie für Ihre Kontakte "
-"angezeigt werden soll."
+"In diesem Schritt können Sie festlegen, welche Informationen dieser "
+"Identität für die Kontaktaufnahme verfügbar sind."
 
 msgid ""
-"Please enter a secret that will allow others to securely establish contact."
-msgstr "Hier ein Geheimnis eingeben, mit dem man Sie sicher kontaktieren kann."
+"If you do not want to fill in this data now you can safely leave it empty "
+"and add it any time later."
+msgstr ""
+"Wenn Sie diese Daten jetzt nicht ausfüllen möchten, lassen Sie die Felder "
+"einfach leer. "
 
 msgid "Create identity"
 msgstr "Identität anlegen"
@@ -7553,6 +7623,59 @@ msgstr "In Ihren Daten suchen"
 
 msgid "Loading overview"
 msgstr "Lade Übersicht"
+
+msgid "Grats! You have created your first identity."
+msgstr "Glückwunsch! Sie haben Ihre erste Identität angelegt."
+
+msgid "Create your %{first_identity}."
+msgstr "Legen Sie Ihre %{first_identity} an."
+
+msgid "first identity"
+msgstr "erste Identität"
+
+msgid ""
+"Now %{invite_link}, so you can start to communicate with them confidentially."
+msgstr "%{invite_link}, damit Sie mit ihnen vertraulich kommunizieren können."
+
+msgid "invite some friends"
+msgstr "Laden Sie nun Ihre Freunde ein"
+
+msgid ""
+"Check %{addressbook_link} to see if some of your friends are already using "
+"pidder."
+msgstr ""
+"Verwenden Sie %{addressbook_link}, um zu schauen, ob Ihre Freunde bereits "
+"bei pidder sind."
+
+msgid "the pidder public address book"
+msgstr "das öffentliche Adressbuch"
+
+msgid ""
+"Use the %{wizard_link} and check out our %{wiki_link} for an introduction of "
+"the pidder features."
+msgstr ""
+"Schauen Sie sich die %{wizard_link} und %{wiki_link} für eine Einführung in "
+"die Funktionen von pidder an."
+
+msgid "pidder wizards"
+msgstr "pidder Assistenten"
+
+msgid "wiki pages"
+msgstr "Wiki Seiten"
+
+msgid "Feature_list"
+msgstr "Feature_Liste"
+
+msgid "%{click_here} if you do not wish to see this next steps window anymore."
+msgstr ""
+"%{click_here} wenn Sie dieses Nächste-Schritte-Fenster nicht mehr angezeigt "
+"bekommen möchten."
+
+msgid "click here"
+msgstr "klicken Sie hier"
+
+msgid "(You can re-activate it from within your preferences)."
+msgstr "(Sie können es über Ihre Einstellungen wieder aktivieren)."
 
 msgid "Contact card view"
 msgstr "Kontakt-Kartensicht"
@@ -8871,9 +8994,6 @@ msgstr "und es jederzeit später bei Bedarf wieder hinzufügen."
 
 msgid "Shout"
 msgstr "Shout"
-
-msgid "Enter amount"
-msgstr "Betrag eingeben"
 
 msgid "Set clearance level for whole card."
 msgstr "Freigabelevel der gesamten Karte setzen..."
@@ -12141,9 +12261,6 @@ msgstr ""
 "Sie wissen nun, wie Sie Ihren Kontakten Vertrauenslevel zuweisen können und "
 "damit festlegen, wie Ihre freigegebenen Daten für Ihre Kontakte dargestellt "
 "werden."
-
-msgid "pidder wizards"
-msgstr "pidder Assistenten"
 
 msgid "Welcome to pidder wizards."
 msgstr "Willkommen zu den pidder Assistenten."
